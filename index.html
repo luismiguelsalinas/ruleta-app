@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruleta de Nombres</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ruleta de Nombres</h1>
+  <div id="login">
+    <label for="username">Ingresa tu nombre:</label>
+    <input type="text" id="username" placeholder="Tu nombre">
+    <button onclick="startGame()">Iniciar</button>
+  </div>
+  <canvas id="wheelCanvas" width="500" height="500" style="display: none;"></canvas>
+  <div id="winner"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  #login {
+    margin-top: 20px;
+  }
+  
+  canvas {
+    margin-top: 20px;
+    border: 2px solid #333;
+  }
+  
+  #winner {
+    font-size: 24px;
+    margin-top: 20px;
+    color: green;
+  }
+  
