@@ -1,5 +1,6 @@
 // Configuración de Firebase
-
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref, set, get } from "firebase/database";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAK0yShRY--o2Wp2tSpQepybo-C1UiTuwc",
@@ -13,7 +14,7 @@ const firebaseConfig = {
 
   // Inicializar Firebase
 const app = firebase.initializeApp(firebaseConfig);
-const db = firebase.database();
+const db = firebase.database(app);
 console.log("Firebase inicializado correctamente");
   
   // Código adicional aquí...
