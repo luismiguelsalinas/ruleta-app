@@ -1,5 +1,5 @@
 // Configuración de Firebase
- 
+
 const firebaseConfig = {
   apiKey: "AIzaSyAK0yShRY--o2Wp2tSpQepybo-C1UiTuwc",
   authDomain: "ruletapp-92c8f.firebaseapp.com",
