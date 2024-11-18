@@ -59,7 +59,7 @@ async function startGame() {
     drawWheel(filteredNames);
     spinWheel(filteredNames);
 }
-
+window.startGame = startGame;
 function drawWheel(filteredNames, rotation = 0) {
 const canvas = document.getElementById('wheelCanvas');
 const ctx = canvas.getContext('2d');
