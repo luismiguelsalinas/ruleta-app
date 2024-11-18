@@ -12,9 +12,9 @@ const firebaseConfig = {
 };
 
   // Inicializar Firebase
-  const app = firebase.initializeApp(firebaseConfig);
-  const db = firebase.database();
-  console.log("Firebase inicializado correctamente");
+const app = firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
+console.log("Firebase inicializado correctamente");
   
   // Código adicional aquí...
 
