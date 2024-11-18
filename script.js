@@ -1,7 +1,7 @@
 // Configuración de Firebase
-import { initializeApp } from "firebase/app";
 
-const firebaseConfig = initializeApp({
+
+const firebaseConfig = {
   apiKey: "AIzaSyAK0yShRY--o2Wp2tSpQepybo-C1UiTuwc",
   authDomain: "ruletapp-92c8f.firebaseapp.com",
   databaseURL: "https://ruletapp-92c8f-default-rtdb.firebaseio.com",
@@ -9,7 +9,7 @@ const firebaseConfig = initializeApp({
   storageBucket: "ruletapp-92c8f.firebasestorage.app",
   messagingSenderId: "54062965268",
   appId: "1:54062965268:web:f2ead672f4bd28cfb5bd01"
-});
+};
 
   // Inicializar Firebase
   const app = firebase.initializeApp(firebaseConfig);
