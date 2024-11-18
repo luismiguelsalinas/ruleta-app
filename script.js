@@ -1,15 +1,15 @@
 // Configuración de Firebase
-
+ 
 const firebaseConfig = {
-    apiKey: "AIzaSyAXqmOcgKCspqTgGHpqPTpvv4joWsS072g",
-    authDomain: "ruleta-app-91fef.firebaseapp.com",
-    databaseURL: "https://ruleta-app-91fef-default-rtdb.firebaseio.com",
-    projectId: "ruleta-app-91fef",
-    storageBucket: "ruleta-app-91fef.firebasestorage.app",
-    messagingSenderId: "431155048637",
-    appId: "1:431155048637:web:95c720f323fe4309e107d4"
+  apiKey: "AIzaSyAK0yShRY--o2Wp2tSpQepybo-C1UiTuwc",
+  authDomain: "ruletapp-92c8f.firebaseapp.com",
+  databaseURL: "https://ruletapp-92c8f-default-rtdb.firebaseio.com",
+  projectId: "ruletapp-92c8f",
+  storageBucket: "ruletapp-92c8f.firebasestorage.app",
+  messagingSenderId: "54062965268",
+  appId: "1:54062965268:web:f2ead672f4bd28cfb5bd01"
 };
-  
+
   // Inicializar Firebase
   const app = firebase.initializeApp(firebaseConfig);
   const db = firebase.database();
