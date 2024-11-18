@@ -1,8 +1,6 @@
 // Configuración de Firebase
+import { initializeApp } from "firebase/app";
 
-const names = ["MIGUEL", "VIVIANA", "OMAR", "CATALINA", "GINNA", "DIEGO", "ALEX", 
-  "KATA", "ERIKA", "BRAYAN", "LUCIA", "CARLOS", "JAVIER", "MAFE", "ARLY", "JUAN"];
-let winners = [];
 
 const firebaseConfig = {
     apiKey: "AIzaSyAXqmOcgKCspqTgGHpqPTpvv4joWsS072g",
@@ -36,9 +34,9 @@ async function getWinners() {
 }
 
 
-/*const names = ["MIGUEL", "VIVIANA", "OMAR", "CATALINA", "GINNA", "DIEGO", "ALEX", 
+const names = ["MIGUEL", "VIVIANA", "OMAR", "CATALINA", "GINNA", "DIEGO", "ALEX", 
     "KATA", "ERIKA", "BRAYAN", "LUCIA", "CARLOS", "JAVIER", "MAFE", "ARLY", "JUAN"];
-let winners = [];*/
+let winners = [];
 
 async function startGame() {
     const username = document.getElementById('username').value.toUpperCase();
