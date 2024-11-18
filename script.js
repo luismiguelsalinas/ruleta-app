@@ -1,5 +1,6 @@
 // Configuración de Firebase
 
+
 const firebaseConfig = {
     apiKey: "AIzaSyAXqmOcgKCspqTgGHpqPTpvv4joWsS072g",
     authDomain: "ruleta-app-91fef.firebaseapp.com",
@@ -8,7 +9,7 @@ const firebaseConfig = {
     storageBucket: "ruleta-app-91fef.firebasestorage.app",
     messagingSenderId: "431155048637",
     appId: "1:431155048637:web:95c720f323fe4309e107d4"
-  };
+};
   
   // Inicializar Firebase
   const app = firebase.initializeApp(firebaseConfig);
